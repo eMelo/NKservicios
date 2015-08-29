@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0; 
+}
+
+.bigtitle{
+    font-family: 'Chewy';
+    font-size: 25px;
+    color: #757575;
+    /*margin: 0px auto;*/
+    padding: 60px 0px 60px 0px;
+    /*text-align: center;*/
+    width: 70%;
+}
+
+paper-toolbar.main{
+    /*box-shadow: 0px 2px 5px #424242;*/
+    /*background: #000000;*/
+    font-size: 18px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+paper-toolbar paper-icon-button:hover{
+    border-radius: 8px;
+    background: #212121;
+}
+
+
+
+/*CSS para la Imagen*/
+.sized{
+    width: 100%;
+    height: 350px; 
+}
+
+
+/*Para las Cartas*/
+paper-card{
+    width: 200px;
+    margin: 10px;
+}
+
+paper-card div{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 18px;
+}    
+
+.cards{
+    padding: 1px 1px 1px ;
+    width: 70%;
+}
+.botontoPortafolio{
+    background: #EF6C00;
+    font-size: 18px;
+
+}
+
+paper-fab {
+    z-index: 1; 
+    position: absolute; 
+    bottom: 20px;
+    right: 25px;
+    background: #FF6000;
+}
+
+.footer{
+    background: #E0E0E0;
+    width: 100%;
+    height:400px;
+
+}
+
+.test{
+
+}

@@ -3,6 +3,8 @@ body{
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    /*Agregado para cambio de BackGround*/
+    background : #f1f1f3;
 }
 
 hr {
@@ -12,13 +14,15 @@ hr {
     border-top: 1px solid #ccc;
     padding: 0; 
 }
+
 td{
-    text-align: top;
+    text-align: left;
     vertical-align: top;
+    padding: 3px 3px 3px 3px;
 }
 
 .bigtitle{
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     font-size: 25px;
     font-style: bold;
     color: #757575;
@@ -29,7 +33,7 @@ td{
 }
 
 .bigtitle2{
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     font-size: 25px;
     font-style: bold;
     color: white;
@@ -38,15 +42,16 @@ td{
     padding: 40px 0px 40px 0px;
     /*text-align: center;*/
     width: 100%;
-    background: #2E7D32;
+    /*background: #2E7D32;*/
+    background: #00BCD4;
 }
 
 paper-toolbar.main{
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     /*box-shadow: 0px 2px 5px #424242;*/
     /*background: #000000;*/
+    background: #212121;
     font-size: 18px;
-    background: #000000;
     color: #FFFFFF;
 }
 
@@ -71,7 +76,7 @@ paper-card{
 }
 
 paper-card div{
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -98,18 +103,31 @@ paper-fab {
 }
 
 .footer{
-    font-family: 'Roboto';
-    background: #F0F0F0;
+    font-family: 'Roboto', Helvetica;
+    /*background: #F0F0F0;*/
+    background: #797c82;
     width: 100%;
     height:100px;
+    padding: 30px 40px 40px 40px;
+}
+
+.foottext{
+    margin: auto;
+    width: 70%;
+    color: #c6c7ca;
+    vertical-align: center; 
+
 }
 
 .clientes
 {
     width: 100%;
     height: 150px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Helvetica;
     font-size: 18px;
-    padding: 120px 0px 120px;
+    padding: 120px 0px 120px ;
+}
 
+.clientes td{
+  padding: 10px 8px 10px 8px;
 }
